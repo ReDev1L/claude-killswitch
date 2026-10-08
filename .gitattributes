@@ -1,0 +1,4 @@
+# bash in WSL refuses CRLF scripts; Windows PowerShell 5.1 is happiest with CRLF
+*.sh  text eol=lf
+*.ps1 text eol=crlf
+*.md  text eol=lf
